@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: inherit;
+}
+
+:root {
+    --text-color: #333333;
+    --white-color: #FFFFFF;
+    --primary-color: #2C31CF;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.no-border {
+    border: none;
+}

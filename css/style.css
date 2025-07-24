@@ -1,0 +1,253 @@
+/* Header */
+#header {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    height: 68px;
+    justify-content: space-between;
+    margin: 0 30px 0 20px;
+}
+
+.navbar__left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__left a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    outline: none;
+}
+
+.navbar__left ul {
+    padding-left: 0;
+}
+
+.navbar__logo {
+    width: auto;
+    height: 40px;
+    margin-right: 16px;
+}
+
+.navbar__list {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+
+.navbar__list a {
+    color: #1a212f;
+}
+
+.navbar__item {
+    font-size: 1.4rem;
+    height: 100%;
+    margin: 0 17px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__item:hover {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    margin-bottom: -2px;
+}
+
+.navbar__right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__list-icon {
+    list-style: none;
+    display: flex;
+}
+
+.navbar__list-icon a {
+    text-decoration: none;
+}
+
+.navbar__icon {
+    width: 28px;
+    height: 28px;
+    background-color: #edf0fd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 6px;
+    color: #637381;
+}
+
+/* .navbar__cart {
+    position: absolute;
+    min-width: 330px;
+    background-color: var(--white-color);
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1; 
+    border: 1px solid #e9e9e9;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 14px;
+    min-height: 90px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    z-index: 1;
+    display: none;
+}
+
+.navbar__cart::before {
+    content: "";
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    top: calc(0% - 13px);
+    z-index: 1;
+}
+
+.navbar__cart::after {
+    content: "";
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0, 0, 0, 0.3) transparent;
+    position: absolute;
+    top: calc(0% - 15px);
+    z-index: 0;
+} */
+
+.navbar__cart-title {
+    color: var(--text-color);
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+}
+
+.navbar__cart-desc {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+}
+
+.navbar__icon img {
+    width: 14px;
+    height: 14px;
+    color: #637381;
+}
+
+.navbar__icon--vi img {
+    width: 28px;
+    height: 28px;
+    margin: 0 6px;
+}
+
+.navbar__avatar {
+    position: relative;
+    margin-left: 20px;
+}
+
+.navbar__avatar img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navbar__avatar:hover .navbar__avatar-menu{
+    display: block;
+}
+
+.navbar__avatar-menu {
+    display: none;
+}
+
+.avatar-menu-list {
+    display: block;
+    min-width: 220px;
+    top: 100%;
+    right: -30px;
+    position: absolute;
+    list-style: none;
+    max-height: 290px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    padding-left: 0;
+    border-radius: 4px;
+}
+
+.avatar-menu-list::before {
+    position: absolute;
+    content: "";
+    right: 39px;
+    top: -20px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    z-index: 1;
+}
+
+.avatar-menu-list::after {
+  content: "";
+  position: absolute;
+  right: 39px;
+  top: -21px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+}
+
+.avatar-menu-list a {
+    display: block;
+    text-decoration: none;
+}
+
+.avatar-menu-item{
+    display: block;
+    color: black;
+    font-size: 1.4rem;
+    padding: 12px 0;
+    padding-left: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.avatar-menu-list a:last-of-type .avatar-menu-item {
+    border-bottom: none;
+}
+
+.avatar-menu-item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Container */
+#container {
+    height: 2000px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
