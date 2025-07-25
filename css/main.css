@@ -10,12 +10,14 @@ body {
     --text-color: #333333;
     --white-color: #FFFFFF;
     --primary-color: #2C31CF;
+    --navbar-height: 68px; 
 }
 
 html {
     font-size: 62.5%;
     line-height: 1.6rem;
     font-family: 'Poppins', sans-serif;
+    background-color: var(--white-color);
 }
 
 .no-border {
