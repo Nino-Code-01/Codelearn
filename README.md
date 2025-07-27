@@ -24,7 +24,7 @@ CodeLearn-clone/
 
 ## 📷 Screenshots
 
-(Include screenshots or GIFs here if needed)
+![GiaoDien](https://github.com/tuilatoan15/CodeLearn-clone/blob/main/assets/images/demo.png)
 
 ## 🛠️ Technologies
 
