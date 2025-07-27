@@ -901,14 +901,6 @@
     margin-bottom: 20px;
 }
 
-.practice__point {
-
-}
-
-.practice__experience-bar {
-
-}
-
 .practice-and-share {
     display: flex;
 }
@@ -1186,10 +1178,6 @@
     pointer-events: none;
 }
 
-.share__item-content {
-    
-}
-
 .share__item-title {
     font-size: 1.5rem;
     color: #111827;
@@ -1253,14 +1241,6 @@
     padding: 0;
 }
 
-.skill__list-item:not(:first-child) {
-    
-}
-
-.skill__list-item:first-child {
-    
-}
-
 .skill__item {
     display: flex;
     align-items: center;
@@ -1306,10 +1286,6 @@
     margin-right: 0px;
 }
 
-.yellow-color {
-
-}
-
 .activities {
     width: 33%;
 }
@@ -1338,18 +1314,10 @@
     padding: 8px;
 }
 
-.activities__col {
-
-}
-
 .activities__header {
     font-size: 1.3rem;
     color: #898989;
     text-align: center;
-}
-
-.activities__col-day {
-
 }
 
 .activities__day {
@@ -1406,24 +1374,119 @@
 
 /* Footer */
 #footer {
-    height: 2000px;
     width: 100%;
 }
 
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 20px 0 20px;
+    margin: 0 20px 40px 20px;
+}
 
+.footer__info {
+    width: 30%;
+}
 
+.footer__logo img{
+    width: 185px;
+}
 
+.footer__intro {
+    max-width: 380px;
+    font-size: 1.3rem;
+    color: #111827;
+    line-height: 20px;
+    margin: 8px 0;
+}
 
+.footer__social img {
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+    margin-right: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
 
+.fb-icon {
+    background-color: #37599e;
+}
 
+.yt-icon {
+    background-color: #b20f0f;
+}
 
+.x-icon {
+    background-color: #00a2f9;
+}
 
+.ig-icon {
+    background-color: #bf1c8f;
+}
 
+.footer__function-list {
+    max-width: 264px;
+}
 
+.function__header {
+    font-size: 1.5rem;
+    color: #2C31CF;
+    line-height: 24px;
+    margin: 20px 0;
+}
 
+.function__item {
+    display: flex;
+    font-size: 1.3rem;
+    color: #111827;
+    line-height: 20px;
+    margin: 10px 0;
+}
 
+.function__item.link {
+    cursor: pointer;
+}
 
+.footer__contact-icon {
+    margin-right: 10px;
+}
 
+.footer__contact-desc {
+    font-size: 1.4rem;
+    color: #111827;
+}
 
+.footer__source {
+    display: flex;
+    justify-content: center;
+    height: 47px;
+    align-items: center;
+    background-color: #1c1d31;
+}
 
+.footer__source-logo img {
+    margin-right: 8px;
+}
 
+.footer__source-title {
+    font-size: 1.3rem;
+    color: var(--white-color);
+}
+
+.font-bold {
+    font-size: 1.4rem;
+    color: #111827;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.home-link {
+    font-size: 1.3rem;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.home-link:hover {
+    opacity: 0.8;
+}
