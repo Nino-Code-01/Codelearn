@@ -14,12 +14,19 @@ A frontend clone of the CodeLearn.io homepage using HTML and CSS (no JavaScript)
 ## 📁 Project Structure
 
 CodeLearn-clone/
+
 ├── assets/
-│   ├── images/
+
+│   ├── images
+
 │   └── fonts/
+
 ├── css/
+
 │   └── style.css
+
 ├── index.html
+
 └── README.md
 
 ## 📷 Screenshots
