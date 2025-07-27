@@ -407,6 +407,8 @@
 }
 
 .practice__point {
+    display: flex;
+    align-items: center;
     font-size: 3.2rem;
     font-weight: bold;
     color: #f6ff00;
@@ -511,6 +513,7 @@
 }
 
 .banner a {
+    text-decoration: none;
     padding: 0;
     margin: 0;
 }
@@ -523,6 +526,8 @@
 
 .banner__btn {
     position: absolute;
+    text-decoration: none;
+    outline: none;
     bottom: 10%;
     right: 22%;
 }
@@ -975,6 +980,12 @@
     display: flex;
     justify-content: space-between;
     margin: auto;
+    height: 100%;
+}
+
+.practice__exercises-list a {
+    text-decoration: none;
+    color: unset;
 }
 
 .practice__exercises-item {
@@ -985,18 +996,24 @@
     max-width: 242px;
     width: 33.33333%;
     min-height: 180px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -2px #77c148;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     border: 1px solid #e5e7eb;
+    overflow: hidden;
+    transition: transform 0.1s ease-in-out;
+}
+
+.practice__exercises-item:hover {
+    transform: translateY(-8px) translateX(1px);
 }
 
 .practice__exercises {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 16px;
     align-items: center;
-    justify-content: center;
+    padding: 16px;
+    height: 100%;
+    justify-content: space-around;
 }
 
 .exercises__name {
@@ -1027,7 +1044,8 @@
 }
 
 .exercises__tag-item {
-    width: 74px;
+    max-width: 94px;
+    padding: 0 10px;
     height: 25px;
     font-size: 1.2rem;
     line-height: 25px;
@@ -1035,8 +1053,14 @@
     border-radius: 6px;
 }   
 
-.practice__user-icon {
+.exercises__tag-item:not(:last-child) {
+    margin-right: 10px;
+}
 
+.practice__user-icon img {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
 }
 
 .practice__percent-complete {
@@ -1044,8 +1068,10 @@
     color: #65656d;
 }
 
-.practice__icon {
-
+.practice__icon img{
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
 }
 
 .practice__point-title {
@@ -1055,6 +1081,9 @@
 
 .practice__complete-list {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 16px;
     bottom: 0;
     align-items: center;
     max-height: 42px;
@@ -1062,7 +1091,8 @@
 }
 
 .practice__complete {
-
+    display: flex;
+    align-items: center;
 }
 
 .share {
@@ -1093,9 +1123,19 @@
     border: 1px solid #e5e7eb;
 }
 
+.share__container a {
+    text-decoration: none;
+    color: unset;
+}
+
 .share__item {
     display: flex;
     border-bottom: 1px solid #e5e7eb;
+    transition: transform 0.2s ease;
+}
+
+.share__item:hover {
+    transform: translateY(-8px);
 }
 
 .share__item:last-child {
@@ -1175,6 +1215,194 @@
     line-height: 24px;
 }
 
+/* Skill and Activity */
+.skill-and-activities {
+    width: 1440px;
+    display: flex;
+}
+
+.skill {
+    width: 65%;
+    margin-right: 32px;
+}
+
+.skill__title {
+    font-size: 2.6rem;
+    color: #2C31CF;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.skill__container {
+    height: 272px;    
+    padding: 20px;
+    background-color: var(--white-color);    
+    margin-top: 16px;
+    padding-right: 0;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+}
+
+.skill__wrapper {
+    min-height: 162px;
+}
+
+.skill__list-item {
+    padding: 0;
+}
+
+.skill__list-item:not(:first-child) {
+    
+}
+
+.skill__list-item:first-child {
+    
+}
+
+.skill__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.skill__language {
+    display: flex;
+    align-items: center;
+}
+
+.language__icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.language__name {
+    font-size: 1.6rem;
+    color: #182537;
+    line-height: 24px;
+}
+
+.skill__rating {
+    list-style: none;
+    display: flex;
+    color: #cbd3e3;
+    padding-left: 0;
+    padding-right: 38px;
+}
+
+.skill__rating li {
+    font-size: 1.4rem;
+    margin-right: 5px;
+}
+
+.fa-solid.fa-star.active {
+    color: #f9bf0a;
+}
+
+.skill__rating li:last-child {
+    margin-right: 0px;
+}
+
+.yellow-color {
+
+}
+
+.activities {
+    width: 33%;
+}
+
+.activities__container {
+    min-height: 272px;
+    background-color: var(--white-color);
+    margin-top: 16px;
+    border-radius: 6px;
+    padding: 20px;
+    border: 1px solid #e5e7eb;    
+}
+
+.activities__title {
+    font-size: 2.6rem;
+    color: #2C31CF;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+} 
+
+.activities__month {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.activities__col {
+
+}
+
+.activities__header {
+    font-size: 1.3rem;
+    color: #898989;
+    text-align: center;
+}
+
+.activities__col-day {
+
+}
+
+.activities__day {
+    display: block;
+    width: 38px;
+    height: 22px;
+    font-size: 1.3rem;
+    color: #182537;
+    text-align: center;
+    line-height: 22px;
+    margin: 8px auto;
+    background-color: #E9EAFA;
+    border-radius: 2px;
+}
+
+.activities__level {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    padding-top: 16px;
+    border-top: 1px solid #e9eafa;
+}
+
+.activities__level div {
+    margin-right: 16px;
+}
+
+.activities__level-title {
+    font-size: 1.6rem;
+    color: #182537;
+}
+
+.activities__level-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.level-1 {
+    background-color: #E9EAFA;
+}
+
+.level-2 {
+    background-color: #AAACEB;
+}
+
+.level-3 {
+    background-color: #6B6EDD;
+}
+
+.level-4 {
+    background-color: #2C31CF;
+}
 
 /* Footer */
 #footer {
