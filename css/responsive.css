@@ -1,0 +1,223 @@
+/* Tablet and Mobile */
+@media screen and (max-width: 1023px) {
+    .navbar__list {
+        display: none;
+    }
+
+    .navbar__icon--vi {
+        display: none;
+    }
+
+    .navbar__menu-icon {
+        display: block;
+    }
+
+    #info {
+        margin: 0;
+        position: relative;
+        top: var(--navbar-height);
+        margin-bottom: var(--navbar-height);
+    }
+    
+    .info__title {
+        line-height: 28px;
+        font-size: 1.7rem;
+        margin: 0 0 20px 0;
+    }
+
+    .info__discover {
+        display: inline-block;
+        line-height: 26px;
+    }
+
+    .rank__title,
+    .practice__title,
+    .course__title-achivement {
+        font-size: 1.3rem;
+    }
+
+    .rank__competition,
+    .course__certification {
+        font-size: 1rem;
+        margin-bottom: 0;
+        position: relative;
+        top: -2px;
+        margin-left: 12px;
+    }
+
+    .achievement {
+        padding: 0;
+    }
+
+    .achievement__row {
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+
+    .achievement__row > div{
+        padding: 0 6px;
+    }
+
+    .achievement__row > div:first-child {
+        padding-left: 0;
+    }
+
+    .achievement__row > div:last-child {
+        padding-right: 0;
+    }
+
+    .rank__point,
+    .course__point,
+    .practice__point {
+        font-size: 1.6rem;
+        line-height: 24px;
+        margin: 0;
+        font-weight: normal;
+    }
+
+    .rank__experience-bar,
+    .course__experience-bar,
+    .practice__experience-bar {
+        display: none;
+    }
+
+    .rank,
+    .practice,
+    .achievement__course {
+        border-radius: 2px;
+        border: 1px dashed #35416e;
+        padding: 12px 8px;
+    }
+
+    .flex-item__course {
+        justify-content: flex-start;
+    }
+
+    .achievement__name {
+        border-radius: 2px;
+        border: 1px dashed #35416e;
+        padding: 12px 0;
+    }
+
+    .achievement__desc {
+        font-size: 1.3rem;
+    }
+
+    .achievement__icon-list {
+        margin-bottom: 0;
+        flex-wrap: wrap;
+    }
+
+    .achievement__icon-item {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+
+    .banner__btn-view {
+        width: 128px;
+        height: 32px;
+        font-size: 1.2rem;
+        line-height: 16px;
+    }
+
+    .banner__btn-date {
+        font-size: 0.9rem;
+        line-height: 14px;
+    }
+
+    .course__suggest,
+    .course__learning,
+    .course__complete {
+        font-size: 1.7rem;
+    }
+
+    .suggest__view-all {
+        line-height: 36px;
+    }
+
+    .course__cart-list {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+
+    .course__cart-item {
+        flex: 0 0 calc((100% - 30px) / 2);
+    }
+
+    .course__cart-item > .course__price:nth-child(3),
+    .course__cart-item > .course__price:nth-child(4) {
+        margin-bottom: 15px;
+    }
+
+    .competition__row {
+        flex-direction: column;
+    }
+
+    .competition__wrapper {
+        width: 100%;
+    }
+
+    .competition__name {
+        font-size: 2rem;
+    }
+
+    .practice-and-share {
+        flex-direction: column;
+    }
+
+    .share,
+    .practice__wrapper,
+    .practice__container {
+        width: 100%;
+    }
+
+    .skill-and-activities {
+        flex-direction: column;
+    }
+
+    .skill,
+    .activities {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .activities__month {
+        justify-content: space-around;
+    }
+
+    .footer__container {
+        flex-direction: column;
+    }
+
+    .footer__container > div {
+        margin-bottom: 20px;
+    }
+
+    .footer__function-list:last-child {
+        margin-bottom: -5px;
+    }
+
+    .footer__info {
+        width: unset;
+    }
+
+    .footer__function-list {
+        max-width: unset;
+    }
+}
+
+/* PC */
+@media screen and (min-width: 1024px) {
+
+}
+
+/* Tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/* Mobile */
+@media screen and (max-width: 739px) {
+    
+}
