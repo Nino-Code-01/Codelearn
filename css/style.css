@@ -1008,7 +1008,8 @@
 }
 
 .practice__exercises-item:hover {
-    transform: translateY(-8px) translateX(1px);
+    transform: translateY(-6px);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .practice__exercises {
@@ -1236,7 +1237,7 @@
 }
 
 .skill__container {
-    height: 272px;    
+    min-height: 272px;    
     padding: 20px;
     background-color: var(--white-color);    
     margin-top: 16px;
