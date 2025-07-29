@@ -205,6 +205,60 @@
     .footer__function-list {
         max-width: unset;
     }
+
+    .skill__wrapper {
+        flex-direction: column;
+    }
+
+    .practice__level {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .practice__low,
+    .practice__average {
+        width: 100%;
+        height: auto;
+    }
+
+    .practice__average {
+        margin-top: 20px;
+    }
+
+    .practice__low-name,
+    .practice__low-ponit,
+    .practice__average-name,
+    .practice__average-point {
+        font-size: 1.6rem;
+        line-height: 24px;
+    }
+
+    .practice__exercises-list {
+        flex-direction: column;
+    }
+
+    .practice__exercises-item {
+        width: auto;
+        min-height: unset;
+    }
+
+    .practice__exercises-item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .exercises__level {
+        margin-top: 12px;
+        margin-bottom: 20px;
+    }
+
+    .exercises__name {
+        font-size: 1.6rem;
+    }
+
+    .practice__complete-list {
+        height: 42px;
+    }
+
 }
 
 /* PC */
@@ -219,5 +273,33 @@
 
 /* Mobile */
 @media screen and (max-width: 739px) {
+    .course__cart-item:first-child {
+        flex: 100%;
+    }
+
+    .course__cart-item:not(:first-child) {
+        display: none;
+    }
+
+    .share__item {
+        flex-direction: column;
+    }
+
+    .share__item-img .img-base {
+        width: 100%;
+        height: auto;
+    }
+
+    .share__item-img {
+        margin-right: 0;
+    }
+
+    .share__item:last-child .share__item-desc {
+        margin-bottom: 20px;
+    }
+
+    .course__header {
+        flex-wrap: wrap;
+    }
     
 }
