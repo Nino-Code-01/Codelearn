@@ -168,6 +168,15 @@
     display: none;
 } 
 
+.navbar__exit-icon {
+    position: relative;
+    top: -2px;
+    color: #3b3c54;
+    font-size: 2.4rem;
+    margin-left: 12px;
+    display: none;
+}
+
 .navbar__avatar::before {
     content: "";
     position: absolute;
@@ -1472,13 +1481,16 @@
 
 .footer__source {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    height: 47px;
     align-items: center;
     background-color: #1c1d31;
+    padding: 10px 15px;
 }
 
 .footer__source-logo img {
+    display: block;
+    height: 27px;
     margin-right: 8px;
 }
 

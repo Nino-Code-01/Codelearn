@@ -21,33 +21,43 @@
                 <a href="#">
                     <img src="./assets/images/codelearn-logo.png" alt="Logo" class="navbar__logo">
                 </a>
+
+                <!-- Checkbox -->
+                <input type="checkbox" id="menu-toggle" hidden>
+
+                <!-- Overlay -->
+                <label for="menu-toggle" class="overlay"></label>
+
+                <!-- Navbar -->
                 <ul class="navbar__list">
-                    <a href="#">
-                        <li class="navbar__item">Học tập</li>
-                    </a>
-                    <a href="#">
-                        <li class="navbar__item">Luyện tập</li>
-                    </a>
-                    <a href="#">
-                        <li class="navbar__item">Thi đấu</li>
-                    </a>
-                    <a href="#">
-                        <li class="navbar__item">Thử thách</li>
-                    </a>
-                    <a href="#">
-                        <li class="navbar__item">Sự kiện</li>
-                    </a>
-                    <a href="#">
-                        <li class="navbar__item">Xếp hạng</li>
-                    </a>
-                    <a href="#">
-                        <li class="navbar__item">Người đóng góp</li>
-                    </a>
-                    <a href="#">
-                        <li class="navbar__item">Chia sẻ</li>
-                    </a>
-                    <a href="#">
-                        <li class="navbar__item">Phòng trưng bày</li>
+                    <li class="navbar__item">            
+                        <a href="">Học tập</a>
+                    </li>
+                    
+                    <li class="navbar__item">
+                        <a href="">Luyện tập</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="">Thi đấu</a>
+                    </li>        
+                    <li class="navbar__item">
+                        <a href="">Thử thách</a>
+                    </li>          
+                    <li class="navbar__item">
+                        <a href="">Sự kiện</a>
+                    </li>          
+                    <li class="navbar__item">
+                        <a href="">Xếp hạng</a>
+                    </li>            
+                    <li class="navbar__item">
+                        <a href="">Người đóng góp</a>
+                    </li>         
+                    <li class="navbar__item">
+                        <a href="">Chia sẻ</a>
+                    </li>       
+                    <li class="navbar__item">
+                        <a href="">Phòng trưng bày</a>
+                    </li>
                     </a>
                 </ul>
             </div>
@@ -115,9 +125,13 @@
                     </div>
                 </div>
 
-                <div class="navbar__menu-icon">
+                <label for="menu-toggle" class="navbar__menu-icon">
                     <i class="fa-solid fa-bars"></i>
-                </div>
+                </label>
+
+                <label for="menu-toggle" class="navbar__exit-icon">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
             </div>
         </div>
     </div>
@@ -397,7 +411,7 @@
                                 <div class="practice__complete-list">
                                     <div class="practice__complete">
                                         <div class="practice__user-icon">
-                                            <img src="./assets/images/user.webp" alt="">
+                                            <img src="/assets/images/user.webp" alt="">
                                         </div>
                                         <div class="practice__percent-complete">90.5%</div>
                                     </div>
@@ -423,7 +437,7 @@
                                 <div class="practice__complete-list">
                                     <div class="practice__complete">
                                         <div class="practice__user-icon">
-                                            <img src="./assets/images/user.webp" alt="">
+                                            <img src="/assets/images/user.webp" alt="">
                                         </div>
                                         <div class="practice__percent-complete">99.1%</div>
                                     </div>
@@ -448,7 +462,7 @@
                                 <div class="practice__complete-list">
                                     <div class="practice__complete">
                                         <div class="practice__user-icon">
-                                            <img src="./assets/images/user.webp" alt="">
+                                            <img src="/assets/images/user.webp" alt="">
                                         </div>
                                         <div class="practice__percent-complete">93.4%</div>
                                     </div>
@@ -867,7 +881,8 @@
             <div class="footer__source-logo">
                 <img src="./assets/images/logo-fpt-footer.svg" alt="">
             </div>
-            <div class="footer__source-title">Cung cấp bởi <a href="/" class="home-link">CodeLearn</a>© 2024. Đã đăng ký bản quyền rev 3/6/2024 4:32:43 PM</div>
+            <div class="footer__source-title">Cung cấp bởi <a href="/" class="home-link">CodeLearn</a>© 2024.&nbsp;</div>
+            <div class="footer__source-title">Đã đăng ký bản quyền rev 3/6/2024 4:32:43 PM</div>
         </div>
     </div>
 </body>
