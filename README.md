@@ -14,17 +14,26 @@ A frontend clone of the CodeLearn.io homepage using HTML and CSS (no JavaScript)
 ## 📁 Project Structure
 
 CodeLearn-clone/
+
 ├── assets/
-│   ├── images/
+
+│   ├── images
+
 │   └── fonts/
+
 ├── css/
+
 │   └── style.css
+
 ├── index.html
+
 └── README.md
 
 ## 📷 Screenshots
 
-(Include screenshots or GIFs here if needed)
+![GiaoDien](https://github.com/tuilatoan15/CodeLearn-clone/blob/main/assets/images/demo.png)
+
+## Demo: https://nino-code-01.github.io/Codelearn/
 
 ## 🛠️ Technologies
 
