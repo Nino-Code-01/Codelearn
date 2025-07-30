@@ -411,4 +411,17 @@
     .navbar__icon {
         margin: 0 3px;
     }
+
+    .rank__competition,
+    .course__certification {
+        display: none;
+    }
+
+    .practice,
+    .achievement__course {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
